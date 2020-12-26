@@ -1,0 +1,24 @@
+CREATE TABLE IF NOT EXISTS nova(
+id INT PRIMARY KEY auto_increment,
+nome VARCHAR(50),
+nascimento int
+);
+SELECT * FROM nova;
+DROP TABLE IF EXISTS Aluno;
+
+/*DDL -> (DATA DEFINITION LANGUAGE): comandos de definições de dados
+CREATE DATABASE
+CREATE TABLE()
+ALTER TABLE
+DROP TABLE
+
+*DML -> (DATA MANIPULATION LANGUAGE): comandos manipulação de dados
+INSERT INTO
+UPDATE
+DELETE
+TRUNCATE
+"SELECT"
+
+DQL -> (DATA QUERY LANGUAGE): Linguagem pra questionamento
+SELECT
+*/
