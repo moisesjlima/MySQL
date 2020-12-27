@@ -15,6 +15,8 @@ ON c.idcurso = g.cursopreferido
 ORDER BY g.nome;
 
 
+/*LEFT (OUTER *Opcional) JOIN - Mostra todos os dados da tabela informada a esquerda
+ RIGHT (OUTER *Opcional) JOIN - Mostra todos os dados da tabela informada a Direita/ Dando preferencia à esta*/
 /*OUTER JOIN - (Exterior)As informações ligadas e todas as outras */
 SELECT g.nome, c.nome, c.ano 
 FROM gafanhotos as g RIGHT OUTER JOIN cursos as c /*Apelido para gafanhoto(as g) e curso(as c)*/

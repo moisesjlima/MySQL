@@ -25,6 +25,6 @@ SELECT * FROM cursos;
 
 UPDATE gafanhotos SET cursopreferido = '6' WHERE id = '1'; 
 
-/*Integridade referencial*/
+/*Integridade Referencial*/
 DELETE FROM curso WHERE idcurso='6'; /*Devido ao relacionamento das tabelas e relação do registro não será possível Apagar esse curso!!!*/
 DELETE FROM curso WHERE idcurso ='28'; /*Curso/tupla sem relação com nenhum registro da tabela gafanhoto, sendo possível apagar*/
